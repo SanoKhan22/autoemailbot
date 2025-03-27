@@ -3,6 +3,8 @@ import os
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
+# @eusanokhan
+# Email Automation Bot
 class Email:
     def __init__(self, sender_email, recipient_email, subject, message):
         self.sender_email = sender_email
